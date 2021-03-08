@@ -1,0 +1,218 @@
+/*global================================*/
+:root{
+    --color-text: rgb(55, 61, 66);
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-weight: 500;
+}
+
+h2{
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+h3{
+    font-weight: 600;
+    text-align: left;
+    font-size:1.2rem;
+}
+h4{
+    font-weight: 600;
+    text-align: left;
+    font-size: 2rem;
+}
+h5{
+    font-weight: 600;
+    text-align: left;
+    font-size:1.2rem;
+}
+
+
+/*header================================*/
+header{
+    color: white;
+    background-image: url(./image/Cotopaxi.jpg);
+    background-position: top;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    min-width: 1400px;
+}
+
+#button{
+    background: white;
+    margin-top: 2.3rem;
+    margin-bottom: 1.5rem;
+    padding: .9rem 5rem .8rem 5rem;
+    border: none;
+    font: 1rem bolder Poppins;
+
+}
+#button #button_text{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--color-text);
+} 
+
+#text_logo{
+    margin: -1rem auto 2rem auto;
+    font-size: 1.3rem; 
+}
+
+#header_title{
+    text-align: center;
+    font-size: 3.8rem;
+    margin: 0rem auto 0rem auto;
+}
+
+/*Main================================*/
+main{ 
+    margin: 2.5rem 4rem 4rem 4rem;
+    
+}
+#main_title{
+    margin-bottom: 1rem;
+    color: var(--color-text);
+}
+
+#flex_container1{
+    color: white;
+    align-items: stretch; 
+    justify-content:left;
+    flex-direction: column;
+    min-width: 1270px;   
+}
+#main_line1{
+    display: flex;
+    margin: 0rem;
+    padding: 1rem;
+}
+#main_line2{
+    display: flex;
+    margin: 0rem;
+    padding: 1rem;
+    display: flex;
+}
+#main_line3{
+    display: flex;
+    margin: 0rem;
+    padding: 1rem;
+}
+#item1{
+    background-image: url(./image/nature.jfif);
+    padding: 1rem;
+    width: 420px;
+    height: 350px;
+    align-items: flex-start;
+    text-align: start;
+    margin-right: 2rem;
+}
+#item2{
+    background-image: url(./image/daily.jpg);
+    padding: 1rem;
+    width: 850px;
+    height: 350px;
+}
+#item3{
+    background-image: url(./image/together.jpg);
+    padding: 1rem; 
+    width: 1270px;
+    height: 350px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+#item4{
+    background-image: url(./image/analysis.jpeg);
+    padding: 1rem;
+    width: 850px;
+    height: 350px;
+    margin-right: 2rem;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: center;
+}
+#item5{
+    background-image: url(./image/pictures.jpg);
+    padding: 1rem;
+    width: 420px;
+    height: 350px;
+}
+
+#flex_container1 #main_line #item3 h2.left{
+display: flex;
+align-items: flex-start;
+align-self: center;
+}
+
+
+/*footer================================*/
+footer{
+    background: #f0f2f5;
+    padding: 4rem;
+    min-width: 1500px;
+    margin-bottom: 0px;
+}
+
+#title_footer1 {
+    margin-bottom: -8rem;
+    color: var(--color-text);
+}
+#title_footer2{
+    text-align: left;
+}
+#flex_container2{
+    display: flex;
+    align-items: flex-end; 
+    justify-content:left;
+    padding: 0;
+    margin: 0;
+}
+.column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem;
+    color: white;
+}
+#flex_container2 .high_line{
+    background-color: #005499;
+    width: 90%;
+    padding: 1rem;
+    text-align: left;
+}
+#flex_container2 .low_line{
+    background-color: #0088ED;
+    display: flex;
+    width:90%;
+    flex-flow: column-reverse;
+    padding: 1rem;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1rem;
+}
+#flex_container2 #line1{
+    height: 80px;
+}
+#flex_container2 #line2{
+    height: 130px;
+}
+#flex_container2 #line3{
+    height: 180px;
+}
+#flex_container2 #line4{
+    height: 230px;
+}
+#flex_container2 #line5{
+    height: 280px;
+}
+#flex_container2 #line6{
+    height: 330px;
+}
